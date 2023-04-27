@@ -6,6 +6,8 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kX1IeVrwA9J97lN1MqsFF_afambuinv8#scrollTo=4dEL6xotpB_A)
 
+#Inference Steps:
+
 ## Step1
 
     from google.colab import drive
