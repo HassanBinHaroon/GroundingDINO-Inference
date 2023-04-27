@@ -6,22 +6,22 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kX1IeVrwA9J97lN1MqsFF_afambuinv8#scrollTo=4dEL6xotpB_A)
 
-#Inference Steps:
+##Inference Steps:
 
-## Step1
+### Step1
 
     from google.colab import drive
     drive.mount('/content/drive')
 
-## Step2
+### Step2
 
     cd drive/MyDrive/GroundingDINO/
 
-## Step3
+### Step3
 
     pip install -q -e .
     
- ## Step4
+### Step4
  
     python demo/inference_on_a_image.py -c groundingdino/config/GroundingDINO_SwinT_OGC.py -p weights/groundingdino_swint_ogc.pth -i frame1.jpg -o "output" -t "bike . person . car ." 
 
