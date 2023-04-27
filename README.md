@@ -1,1 +1,1 @@
-# GroundindDINO-Inference
+# GroundingDINO-Inference
