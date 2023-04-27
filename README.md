@@ -28,4 +28,7 @@ The user would need a folder that should be uploaded on the drive. The link to t
 ## Results Visualization
 
 Go to the output folder that would be created automatically.
-   
+
+## Important Announcement
+
+This is just the beginning of the project. More options and features may be provided in the future.
