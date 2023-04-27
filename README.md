@@ -8,9 +8,17 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 ## Step1
 
-from google.colab import drive
-drive.mount('/content/drive')
+    from google.colab import drive
+    drive.mount('/content/drive')
 
 ## Step2
 
-%cd drive/MyDrive/GroundingDINO/
+    cd drive/MyDrive/GroundingDINO/
+
+## Step3
+
+    pip install -q -e .
+    
+ ## Step4
+ 
+    python demo/inference_on_a_image.py -c groundingdino/config/GroundingDINO_SwinT_OGC.py -p weights/groundingdino_swint_ogc.pth -i frame1.jpg -o "outputting1" -t "bike . person . car ." 
