@@ -80,8 +80,8 @@ Go to the output folder that would be created automatically.
            text_threshold=TEXT_TRESHOLD
     )
 
-annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
-cv2.imwrite("annotated_image.jpg", annotated_frame)
+    annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
+    cv2.imwrite("annotated_image.jpg", annotated_frame)
 
 
 ## Results Visualization (Code)
