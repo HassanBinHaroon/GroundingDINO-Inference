@@ -36,7 +36,7 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 ![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/annotated_image(2).jpg)
 
-## Inference Steps (CLI):
+## Inference Steps (CLI): [GroundingDINO_Trial1.ipynb]
 
 ### Step1
 
@@ -59,7 +59,7 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 Go to the output folder that would be created automatically.
 
-## Inference (Code):
+## Inference (Code): [GroundingDINO_Trial2.ipynb]
 
     from groundingdino.util.inference import load_model, load_image, predict, annotate
     import cv2
