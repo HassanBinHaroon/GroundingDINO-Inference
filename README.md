@@ -1,5 +1,5 @@
 # GroundingDINO-Inference
-This project represents a GroundingDINO Inference (zero-shot object detection) procedure. This implementation will help the reader to know the sequence of commands and exemplifying commands for running a quick zero-shot object detection. This is the Google Colab implementation and has some prerequisites for the complete execution of the script. 
+This project represents a GroundingDINO Inference (zero-shot object detection) procedure with both methods (CLI and Script). This implementation will help the reader to know the sequence of commands and exemplifying commands for running a quick zero-shot object detection. Additionally, the reader may get insight into code (script) execution.  This is the Google Colab implementation and has some prerequisites for the complete execution of the script. 
 
 Prerequisite:
 The user would need a folder that should be uploaded on the drive. The link to the folder is https://drive.google.com/drive/folders/1ctzsamgcgQ9OpxclnNlj7iLYsbbbh2R3?usp=share_link. The user needs to download that folder and upload it to the drive.
