@@ -8,7 +8,7 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 2. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eJye4465EpEZ_h1loUcyPsPecKhhT9ka#scrollTo=KxbH9rKcHdjn)
 
-## Demo Results
+## Table Of Contents
 
   1. Demo Results
   2. Inference Steps (CLI):
