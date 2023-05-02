@@ -18,6 +18,18 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 ![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/img2.jpg)
 
+### Demo3
+
+![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/annotated_image.jpg)
+
+### Demo4
+
+![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/annotated_image(1).jpg)
+
+### Demo5
+
+![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/annotated_image(2).jpg)
+
 ## Inference Steps:
 
 ### Step1
