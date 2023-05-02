@@ -10,6 +10,12 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 ## Demo Results
 
+  1. Demo Results
+  2. Inference Steps (CLI):
+  3. Inference (Code):
+
+## Demo Results
+
 ### Demo1
 
 ![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/img1.jpg)
@@ -30,7 +36,7 @@ The user would need a folder that should be uploaded on the drive. The link to t
 
 ![](https://github.com/HassanBinHaroon/GroundingDINO-Inference/blob/main/Demo%20Images/annotated_image(2).jpg)
 
-## Inference Steps:
+## Inference Steps (CLI):
 
 ### Step1
 
@@ -49,9 +55,42 @@ The user would need a folder that should be uploaded on the drive. The link to t
  
     python demo/inference_on_a_image.py -c groundingdino/config/GroundingDINO_SwinT_OGC.py -p weights/groundingdino_swint_ogc.pth -i frame1.jpg -o "output" -t "bike . person . car ." 
 
-## Results Visualization
+## Results Visualization (CLI)
 
 Go to the output folder that would be created automatically.
+
+## Inference (Code):
+
+    from groundingdino.util.inference import load_model, load_image, predict, annotate
+    import cv2
+
+    model = load_model("groundingdino/config/GroundingDINO_SwinT_OGC.py", "weights/groundingdino_swint_ogc.pth")
+    IMAGE_PATH = "im1.jpg"
+    TEXT_PROMPT = "persons . sofas . fans"
+    BOX_TRESHOLD = 0.35
+    TEXT_TRESHOLD = 0.25
+
+    image_source, image = load_image(IMAGE_PATH)
+
+    boxes, logits, phrases = predict(
+           model=model,
+           image=image,
+           caption=TEXT_PROMPT,
+           box_threshold=BOX_TRESHOLD,
+           text_threshold=TEXT_TRESHOLD
+    )
+
+annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
+cv2.imwrite("annotated_image.jpg", annotated_frame)
+
+
+## Results Visualization (Code)
+
+An annotated image will be created in the code directory.
+
+## References
+
+https://github.com/IDEA-Research/GroundingDINO
 
 ## Important Announcement
 
