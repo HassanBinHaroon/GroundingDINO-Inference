@@ -4,13 +4,13 @@ This project represents a GroundingDINO Inference (zero-shot object detection) p
 Prerequisite:
 The user would need a folder that should be uploaded on the drive. The link to the folder is https://drive.google.com/drive/folders/1ctzsamgcgQ9OpxclnNlj7iLYsbbbh2R3?usp=share_link. The user needs to download that folder and upload it to the drive.
 
-1. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jm2YiPdutOg68MVhDDlg8xt99PK7Piic)
+1. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jm2YiPdutOg68MVhDDlg8xt99PK7Piic) Colab Nootbook for inference on CPU
 
-2. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zIKmMZTY8Kcy0xIltKx0lg1ccEFkiF0g)
+2. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zIKmMZTY8Kcy0xIltKx0lg1ccEFkiF0g) Colab Nootbook for inference on GPU
 
-3. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kX1IeVrwA9J97lN1MqsFF_afambuinv8#scrollTo=4dEL6xotpB_A)
+3. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kX1IeVrwA9J97lN1MqsFF_afambuinv8#scrollTo=4dEL6xotpB_A) Colab Nootbook for inference using Drive folder
 
-4. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eJye4465EpEZ_h1loUcyPsPecKhhT9ka#scrollTo=KxbH9rKcHdjn)
+4. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eJye4465EpEZ_h1loUcyPsPecKhhT9ka#scrollTo=KxbH9rKcHdjn) 
 
 ## Table Of Contents
 
