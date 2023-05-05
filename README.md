@@ -1,12 +1,12 @@
 # GroundingDINO-Inference
 This project represents a GroundingDINO Inference (zero-shot object detection) procedure with both methods (CLI and Script). This implementation will help the reader to know the sequence of commands and exemplifying commands for running a quick zero-shot object detection. Additionally, the reader may get insight into code (script) execution.  This is the Google Colab implementation and has some prerequisites for the complete execution of the script. 
 
-Prerequisite:
-The user would need a folder that should be uploaded on the drive. The link to the folder is https://drive.google.com/drive/folders/1ctzsamgcgQ9OpxclnNlj7iLYsbbbh2R3?usp=share_link. The user needs to download that folder and upload it to the drive.
-
 1. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jm2YiPdutOg68MVhDDlg8xt99PK7Piic) Colab Notebook for inference on CPU
 
 2. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zIKmMZTY8Kcy0xIltKx0lg1ccEFkiF0g) Colab Notebook for inference on GPU
+
+Prerequisite for the following Colab notebooks:
+The user would need a folder that should be uploaded on the drive. The link to the folder is https://drive.google.com/drive/folders/1ctzsamgcgQ9OpxclnNlj7iLYsbbbh2R3?usp=share_link. The user needs to download that folder and upload it to the drive.
 
 3. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kX1IeVrwA9J97lN1MqsFF_afambuinv8#scrollTo=4dEL6xotpB_A) Colab Notebook for inference using Drive folder
 
